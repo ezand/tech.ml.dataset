@@ -6,6 +6,12 @@
 
 Unlike in Python or R, TMD datasets are _functional_, which means they're easier to reason about.
 
+## Fork
+
+This fork adds the following functionality:
+* Provide access to the stable sheet id. This id remains the same regardless of user input, ie rearrangement of sheets
+  * Use the fork [ezand/fastexcel](https://github.com/ezand/fastexcel) of the [dhatim/fastexcel](https://github.com/dhatim/fastexcel) library to be able to access the stable id. 
+
 ## Installing
 
 Installation instructions for your favorite build system (lein, deps.edn, etc...) can be found at Clojars, where the library is hosted:

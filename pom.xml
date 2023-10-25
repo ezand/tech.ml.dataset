@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <packaging>jar</packaging>
+  <groupId>io.github.ezand</groupId>
+  <artifactId>tech.ml.dataset</artifactId>
+  <version>0.0.1</version>
+  <name>tech.ml.dataset</name>
+  <dependencies>
+    <dependency>
+      <groupId>org.clojure</groupId>
+      <artifactId>clojure</artifactId>
+      <version>1.11.1</version>
+    </dependency>
+    <dependency>
+      <groupId>cnuernber</groupId>
+      <artifactId>dtype-next</artifactId>
+      <version>10.105</version>
+    </dependency>
+    <dependency>
+      <groupId>techascent</groupId>
+      <artifactId>tech.io</artifactId>
+      <version>4.31</version>
+      <exclusions>
+        <exclusion>
+          <groupId>org.apache.commons</groupId>
+          <artifactId>commons-compress</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.datasketches</groupId>
+      <artifactId>datasketches-java</artifactId>
+      <version>4.2.0</version>
+    </dependency>
+  </dependencies>
+  <build>
+    <sourceDirectory>src</sourceDirectory>
+  </build>
+  <distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>GitHub ezand Apache Maven Packages</name>
+      <url>https://maven.pkg.github.com/ezand/tech.ml.dataset</url>
+    </repository>
+  </distributionManagement>
+  <repositories>
+    <repository>
+      <id>clojars</id>
+      <url>https://repo.clojars.org/</url>
+    </repository>
+    <repository>
+      <id>github</id>
+      <url>https://maven.pkg.github.com/ezand/tech.ml.dataset</url>
+    </repository>
+  </repositories>
+</project>

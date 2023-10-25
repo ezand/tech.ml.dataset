@@ -12,6 +12,8 @@ public class Spreadsheet
   public interface Sheet extends Iterable
   {
     public String name();
+    public String id();
+    public String stableId();
   }
   public interface Row extends Iterable
   {

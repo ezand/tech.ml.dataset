@@ -16,8 +16,8 @@ This fork adds the following functionality:
 
 Installation instructions for your favorite build system (lein, deps.edn, etc...) can be found at Clojars, where the library is hosted:
 
-[![build Status](https://github.com/ezand/tech.ml.dataset/actions/workflows/test.yml/badge.svg)](https://github.com/ezand/tech.ml.dataset/actions/workflows/test.yml)
-[![Clojars Project](https://img.shields.io/clojars/v/techascent/tech.ml.dataset.svg)](https://clojars.org/techascent/tech.ml.dataset)
+[![build Status](https://github.com/ezand/tech.ml.dataset/actions/workflows/build.yml/badge.svg)](https://github.com/ezand/tech.ml.dataset/actions/workflows/test.yml)
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.github.ezand/tech.ml.dataset/badge.svg)](https://maven-badges.herokuapp.com/maven-central/io.github.ezand/tech.ml.dataset)
 
  - [https://clojars.org/techascent/tech.ml.dataset](https://clojars.org/techascent/tech.ml.dataset)
 

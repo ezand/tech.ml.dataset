@@ -9,8 +9,8 @@
 (def version (codox-data :version))
 (def class-dir "target/classes")
 (def basis (b/create-basis {:project "deps.edn"}))
-(def jar-file (format "target/%s.jar" (name lib)))
-(def uber-file (format "target/uber-%s.jar" (name lib)))
+(def jar-file (format "target/%s-%s.jar" (name lib) version))
+(def uber-file (format "target/uber-%s-%s.jar" (name lib) version))
 
 (defn clean [_]
   (b/delete {:path "target"}))
